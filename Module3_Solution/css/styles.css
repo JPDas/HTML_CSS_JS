@@ -1,0 +1,86 @@
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #66ccff;
+  height: 100px;
+}
+.navbar-brand {
+  padding-top: 16px;
+}
+.navbar-brand h1 { /* Brand name */
+  font-family: 'Lora', serif;
+  color: #33ff33;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: .75;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+section {
+	background-color: #ffcccc;
+    border: 1px solid #000000;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+section h3 {
+    font-size: 1.25em;
+	font-weight: bold;
+}
+
+section p {
+    padding: 0 6px 4px 6px;
+}
+
+/********** Small devices only **********/
+@media (max-width: 768px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Brand name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+   #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1em;
+  }
+  #nav-list {
+    font-size: 1.5em;
+    border: 2px solid #fff;
+    background-color: #66ccff;
+    color: #33ff33;
+  }
+  h1 {
+	  margin-top: 160px;
+  }
+}
+
